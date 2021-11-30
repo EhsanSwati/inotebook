@@ -5,13 +5,13 @@ const UserSchema = new Schema({
     type: "string",
     required: true,
   },
+  Password: {
+    type: "string",
+    required: true,
+  },
   Email: {
     type: "string",
     unique: true,
-    required: true,
-  },
-  Password: {
-    type: "string",
     required: true,
   },
   Genders: {
